@@ -3,134 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wafi's portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Muhammad Wafiyulloh | Software Engineer</title>
+    <meta name="description" content="Muhammad Wafiyulloh is a software engineer in Jakarta who builds web apps with Python, Go, and React and automates testing with Selenium.">
+    <meta name="theme-color" content="#0f172a">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Muhammad Wafiyulloh | Software Engineer">
+    <meta property="og:description" content="Software engineer in Jakarta building web apps with Python, Go, and React, and automating tests with Selenium.">
+    <meta property="og:url" content="https://ahm-wafi.github.io/mwafi-portfolio/">
+    <link rel="canonical" href="https://ahm-wafi.github.io/mwafi-portfolio/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <main>
-        <div class="split left">
-            <div class="left-container">
-                <section id="short-intro" class="section">
-                    <div>
-                        <h1>
-                            Muhammad Wafiyulloh
-                        </h1>
-                        <p style="max-width: 400px; text-align:left; padding-top:1.0rem">Passionate about software development, cloud computing, and artificial intelligence</p>
-                    </div>
-                    <div class="link-container">
-                        <a href="#about"><b>About me</b></a>
-                        <a href="#projects"><b>Projects</b></a>
-                    </div>
-                </section>
-                <section id="contact">
-                    <div>
-                        <a href="https://github.com/ahm-wafi" target="_blank"><img src="assets\github_logo.png"></a>
-                        <a href="https://www.linkedin.com/in/mwafiyulloh" target="_blank"><img src="assets\linkedin_logo.png"></a>
-                    </div>
-                </section>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <div class="layout">
+        <header class="intro">
+            <div>
+                <h1 class="name"><span>Muhammad</span> <span>Wafiyulloh</span></h1>
+                <p class="role">Software engineer</p>
+                <p class="tagline">I build web apps end to end and write the automated tests that keep them working.</p>
+
+                <nav class="nav" aria-label="Sections">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
 
-        <div class="split right" >
-            <section id="about" class="section">
-                <div class="container">
-                    <h2 class="section-title">About Me</h2>
-                    <p>
-                    Welcome to my portfolio! I'm Wafi, a Computer Engineering graduate and Software Engineer with 1+ years of experience specializing in backend development, frontend development, and cloud computing.
-                    </p>
+            <div class="intro-footer">
+                <!-- Icons: Tabler Icons (MIT license) -->
+                <ul class="social">
+                    <li>
+                        <a href="https://github.com/ahm-wafi" target="_blank" rel="noopener" aria-label="GitHub (opens in a new tab)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"/></svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mwafiyulloh" target="_blank" rel="noopener" aria-label="LinkedIn (opens in a new tab)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 11v5"/><path d="M8 8v.01"/><path d="M12 16v-5"/><path d="M16 16v-3a2 2 0 1 0 -4 0"/><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10"/></svg>
+                        </a>
+                    </li>
+                </ul>
+                <p class="location">Jakarta, Indonesia (UTC+7)</p>
+            </div>
+        </header>
 
-                    <br>
-
-                    <p>
-                    I'm passionate about building scalable solutions and have hands-on experience developing comprehensive ERP systems using Django REST Framework and PostgreSQL. I was primarily responsible for the attendance management and employee data modules, while also contributing across multiple business functions including Commerce & Billing, Procurement & Spend, Inventory & Logistics.
-                    </p>
-
-                    <br>
-
-                    <p>
-                    I've built RESTful APIs handling everything from CRUD operations and business logic. A key part of my role involves integrating third-party CRM platforms like HubSpot and Salesforce, implementing batch processing pipelines for inventory, attendance, invoice, and estimate data.
-                    </p>
-
-                    <br>
-
-                    <p>
-                    I design and modify database schemas to support new features while maintaining system performance and reliability. I take pride in delivering solutions quickly without compromising quality—I've successfully shipped feature-complete modules in as little as one day while achieving measurable performance improvements.
-                    </p>
-
-                    <br>
-
-                    <p>
-                    My technical toolkit centers on Python, with experience building robust permission systems and creating maintainable, scalable code. Beyond backend development, I have experience with deep learning using TensorFlow from my academic projects and hold an Alibaba Cloud Certified Associate (ACA) certification, which has deepened my understanding of cloud infrastructure and scalable architecture.
-                    </p>
-
-                    <br>
-
-                    <p>
-                    I'm driven by a commitment to solving complex problems and continuously learning. I thrive on challenges that push the boundaries of what technology can achieve.
-                    </p>
-
-                    <br>
-                    <br>
-
-                    <p>
-                    <b>Let's build something amazing together.</b>
-                    </p>
-                        
+        <main id="content" class="content">
+            <section id="about" class="section" aria-labelledby="about-title">
+                <h2 id="about-title" class="section-title">About</h2>
+                <div class="prose">
+                    <p>I'm Wafi, a Computer Engineering graduate who works across the stack. I started on the backend, building an ERP system with Django REST Framework and PostgreSQL. There I owned the attendance and employee data modules and connected the platform to HubSpot and Salesforce.</p>
+                    <p>Now I work in QA automation at PT HiThink Technology Indonesia, testing enterprise web applications for Japanese clients with Selenium and Java and writing bug reports in Japanese. In my own time I'm building a calendar-based task scheduler with React, Go, and PostgreSQL.</p>
+                    <p>I'm an Alibaba Cloud Certified Associate and have trained deep learning models with TensorFlow in university projects. I enjoy hard problems and keep learning. Right now that means test automation design and CI/CD pipelines.</p>
                 </div>
             </section>
-            <section id="projects" class="section">
-                <div class="container">
-                    <h2 class="section-title">Projects</h2>
-                    <div class="project">
-                        <a href="https://github.com/fidelis-eng/Bookshelf-API.git"><h3>Bookshelf API (Coursework Project)</h3></a>
-                        <p>Build a Bookshelf API project in Node.js using the Hapi framework, enabling CRUD operations (Create,
-                            Read, Update, Delete) for managing book information. Showcase expertise in Node.js, Hapi framework, and implementing RESTful
-                            API functionality.</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://github.com/fidelis-eng/task-5-pbi-btpns-Wafiyulloh"><h3>Photo Profile API (Coursework Project)</h3></a>
-                        <p>Develop a PhotoAPI in Go programming language, using Postgresql as database and interacted by Gorm,
-                            implementing JWT as a protection for API, using Gin as web framework.</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://fidelis-eng.github.io/Travel-Agent-Website/"><h3>Travel Agent Website (Coursework Project)</h3></a>
-                        <p>Develop a website in HTML and CSS to demonstrate skills in frontend</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://gitlab.com/fidelis-eng/task-5-software-engineer"><h3>Customer Api (Coursework Project)</h3></a>
-                        <p>Develop a CustomerApi in C# programming language, implementing CRUD operations, logging process,
-                            using framework .NET Core</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://github.com/fidelis-eng/Face-mask-detection"><h3>Face Mask Detection (Academic Group Project)</h3></a>
-                        <p>Face mask detection using model YOLOv5s and deployed into web application.</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://github.com/fidelis-eng/Machine-Learning-Thriftee"><h3>Recommendation System with CNN (Academic Group Project)</h3></a>
-                        <p>Develop Deep Learning model to identify type of user's clothing with InceptionV3 model and using distance vector formula
-                            to find similar products. The project written in Python and used TensorFlow Framework</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://github.com/fidelis-eng/Obook"><h3>Online Bookstore (Academic Group Project)</h3></a>
-                        <p>Develop the "Online Bookstore (Obook)" project in Java, implementing CRUD operations (Create, Read,
-                            Update, Delete) to manage book information.</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://github.com/fidelis-eng/Taxi-Online"><h3>Online Taxi Reservation Program (Academic Group Project)</h3></a>
-                        <p>Create an online taxi reservation program in C with linked list implementation, allowing users to perform CRUD
-                            operations (Create, Read, Update, Delete) to manage taxi reservations.</p>
-                    </div>
-                    <div class="project">
-                        <a href="https://github.com/fidelis-eng/Type_test"><h3>Typing Test (Academic Group Project)</h3></a>
-                        <p>Develop a typing speed test project in C that measures the user's typing speed for a given word within 1
-                            minute.</p>
-                    </div>
-                </div>
+
+            <section id="experience" class="section" aria-labelledby="experience-title">
+                <h2 id="experience-title" class="section-title">Experience</h2>
+                <ol class="timeline">
+                    <li class="entry">
+                        <div class="entry-head">
+                            <h3 class="entry-title">Assistant Software Engineer, QA Automation</h3>
+                            <p class="entry-date">Apr 2026 – Present</p>
+                        </div>
+                        <p class="entry-org">PT HiThink Technology Indonesia</p>
+                        <ul class="entry-points">
+                            <li>Test enterprise web applications for Japanese clients in Internet Explorer and Edge, and document browser-specific UI differences.</li>
+                            <li>Automate test flows with Selenium and Java, using prepared inputs to verify navigation to target pages.</li>
+                            <li>Write SQL to client designs, along with test specifications that other teams use to verify it.</li>
+                            <li>Write bug reports and test documentation in Japanese.</li>
+                            <li>Helped build internal pages for employee assessment approval and rating.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Java</li>
+                            <li>Selenium</li>
+                            <li>SQL</li>
+                        </ul>
+                    </li>
+                    <li class="entry">
+                        <!-- TODO: add the company name (entry-org) and dates (entry-date) for this role -->
+                        <div class="entry-head">
+                            <h3 class="entry-title">Backend Software Engineer</h3>
+                        </div>
+                        <ul class="entry-points">
+                            <li>Built REST APIs with Django REST Framework and PostgreSQL for a multi-module ERP system.</li>
+                            <li>Owned the attendance management and employee data modules, and contributed to commerce and billing, procurement, and inventory and logistics.</li>
+                            <li>Integrated HubSpot and Salesforce, with batch pipelines that sync inventory, attendance, invoice, and estimate data.</li>
+                            <li>Designed schema changes and permission systems, and shipped complete feature modules in as little as one day.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Python</li>
+                            <li>Django REST Framework</li>
+                            <li>PostgreSQL</li>
+                            <li>HubSpot</li>
+                            <li>Salesforce</li>
+                        </ul>
+                    </li>
+                </ol>
             </section>
-        </div>
-    </main>
+
+            <section id="projects" class="section" aria-labelledby="projects-title">
+                <h2 id="projects-title" class="section-title">Projects</h2>
+                <ul class="projects">
+                    <li class="entry project">
+                        <h3 class="entry-title">Task Scheduler</h3>
+                        <p class="entry-label">In progress</p>
+                        <p class="entry-text">A calendar app for creating and managing schedules. Google Calendar sync is next.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>React</li>
+                            <li>Go</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </li>
+                    <li class="entry project is-linked">
+                        <h3 class="entry-title">
+                            <a class="entry-link" href="https://github.com/fidelis-eng/task-5-pbi-btpns-Wafiyulloh" target="_blank" rel="noopener">Photo Profile API<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 7l-10 10"/><path d="M8 7l9 0l0 9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></a>
+                        </h3>
+                        <p class="entry-label">Course project</p>
+                        <p class="entry-text">A REST API for managing user profile photos, protected with JWT authentication.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Go</li>
+                            <li>Gin</li>
+                            <li>GORM</li>
+                            <li>PostgreSQL</li>
+                            <li>JWT</li>
+                        </ul>
+                    </li>
+                    <li class="entry project is-linked">
+                        <h3 class="entry-title">
+                            <a class="entry-link" href="https://github.com/fidelis-eng/Machine-Learning-Thriftee" target="_blank" rel="noopener">Clothing Recommendation System<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 7l-10 10"/><path d="M8 7l9 0l0 9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></a>
+                        </h3>
+                        <p class="entry-label">University group project</p>
+                        <p class="entry-text">Identifies the type of clothing in a photo with an InceptionV3 model, then finds similar products by vector distance.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Python</li>
+                            <li>TensorFlow</li>
+                        </ul>
+                    </li>
+                    <li class="entry project is-linked">
+                        <h3 class="entry-title">
+                            <a class="entry-link" href="https://github.com/fidelis-eng/Face-mask-detection" target="_blank" rel="noopener">Face Mask Detection<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 7l-10 10"/><path d="M8 7l9 0l0 9"/></svg><span class="visually-hidden"> (opens in a new tab)</span></a>
+                        </h3>
+                        <p class="entry-label">University group project</p>
+                        <p class="entry-text">Detects whether people are wearing face masks using a YOLOv5s model, served through a web app.</p>
+                        <ul class="tags" aria-label="Technologies">
+                            <li>Python</li>
+                            <li>YOLOv5</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <details class="more">
+                    <summary><span class="when-closed">Show 6 more projects</span><span class="when-open">Show fewer projects</span></summary>
+                    <ul class="more-list">
+                        <li>
+                            <a href="https://github.com/fidelis-eng/Bookshelf-API" target="_blank" rel="noopener">Bookshelf API<span class="visually-hidden"> (opens in a new tab)</span></a>
+                            <p>A CRUD API for managing books, built with Node.js and Hapi. Course project.</p>
+                        </li>
+                        <li>
+                            <a href="https://gitlab.com/fidelis-eng/task-5-software-engineer" target="_blank" rel="noopener">Customer API<span class="visually-hidden"> (opens in a new tab)</span></a>
+                            <p>A CRUD API with request logging, built with C# and .NET Core. Course project.</p>
+                        </li>
+                        <li>
+                            <a href="https://fidelis-eng.github.io/Travel-Agent-Website/" target="_blank" rel="noopener">Travel Agent Website<span class="visually-hidden"> (opens in a new tab)</span></a>
+                            <p>A static travel agency website built with HTML and CSS. Course project.</p>
+                        </li>
+                        <li>
+                            <a href="https://github.com/fidelis-eng/Obook" target="_blank" rel="noopener">Online Bookstore (Obook)<span class="visually-hidden"> (opens in a new tab)</span></a>
+                            <p>A Java app for managing a bookstore's catalog. University group project.</p>
+                        </li>
+                        <li>
+                            <a href="https://github.com/fidelis-eng/Taxi-Online" target="_blank" rel="noopener">Online Taxi Reservation<span class="visually-hidden"> (opens in a new tab)</span></a>
+                            <p>A C program for managing taxi reservations, built on linked lists. University group project.</p>
+                        </li>
+                        <li>
+                            <a href="https://github.com/fidelis-eng/Type_test" target="_blank" rel="noopener">Typing Test<span class="visually-hidden"> (opens in a new tab)</span></a>
+                            <p>A C program that measures typing speed over one minute. University group project.</p>
+                        </li>
+                    </ul>
+                </details>
+            </section>
+
+            <section id="skills" class="section" aria-labelledby="skills-title">
+                <h2 id="skills-title" class="section-title">Skills</h2>
+                <dl class="skills">
+                    <div>
+                        <dt>Languages</dt>
+                        <dd>Python, Go, Java, JavaScript, C#, C, SQL</dd>
+                    </div>
+                    <div>
+                        <dt>Web</dt>
+                        <dd>React, Django REST Framework, Gin, Node.js (Hapi), .NET Core, HTML, CSS</dd>
+                    </div>
+                    <div>
+                        <dt>Databases</dt>
+                        <dd>PostgreSQL, GORM</dd>
+                    </div>
+                    <div>
+                        <dt>Testing</dt>
+                        <dd>Selenium, cross-browser testing, test specifications</dd>
+                    </div>
+                    <div>
+                        <dt>Machine learning</dt>
+                        <dd>TensorFlow, YOLOv5</dd>
+                    </div>
+                    <div>
+                        <dt>Cloud and integrations</dt>
+                        <dd>Alibaba Cloud, HubSpot, Salesforce</dd>
+                    </div>
+                    <div>
+                        <dt>Certification</dt>
+                        <dd>Alibaba Cloud Certified Associate (ACA)</dd>
+                    </div>
+                </dl>
+            </section>
+
+            <footer class="site-footer">
+                <p class="cta">Want to work together? <a href="https://www.linkedin.com/in/mwafiyulloh" target="_blank" rel="noopener">Send me a message on LinkedIn</a>.</p>
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
